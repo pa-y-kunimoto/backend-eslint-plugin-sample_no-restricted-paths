@@ -8,9 +8,6 @@ on:
 
 jobs:
   lint:
-    defaults:
-      run:
-        working-directory: sample-exprss-project
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,7 +16,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version-file: package.json
+          node-version-file: sample-express-project/package.json
           cache: npm
 
       - name: Cache Dependencies
@@ -32,6 +29,8 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        working-directory: sample-express-project
 
       - name: Lint
         run: npm run lint
+        working-directory: sample-exprss-project

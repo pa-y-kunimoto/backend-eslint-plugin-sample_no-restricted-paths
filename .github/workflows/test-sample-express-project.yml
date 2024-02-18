@@ -9,9 +9,6 @@ on:
 
 jobs:
   test:
-    defaults:
-      run:
-        working-directory: sample-exprss-project
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -33,9 +30,12 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        working-directory: sample-exprss-project
 
       - name: Execute Unit Test
         run: npm run test
+        working-directory: sample-exprss-project
 
       - name: Execute E2E Test
         run: npm run test:e2e
+        working-directory: sample-exprss-project

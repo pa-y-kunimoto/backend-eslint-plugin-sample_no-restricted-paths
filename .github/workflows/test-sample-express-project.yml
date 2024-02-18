@@ -1,11 +1,10 @@
 name: Test sample-express-project
 
 on:
-  workflow_run:
-    workflows:
-      - "Lint sample-express-project"
-    types:
-      - completed
+  push:
+    paths:
+      - package.json
+      - sample-express-project/**/*
 
 jobs:
   test:

@@ -1,11 +1,10 @@
 name: Test sample-nestjs-project
 
 on:
-  workflow_run:
-    workflows:
-      - "Lint sample-nestjs-project"
-    types:
-      - completed
+  push:
+    paths:
+      - package.json
+      - sample-nestjs-project/**/*
 
 jobs:
   test:

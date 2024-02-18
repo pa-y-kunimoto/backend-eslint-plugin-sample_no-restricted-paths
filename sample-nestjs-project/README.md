@@ -14,7 +14,7 @@ Based on Nest CLI
 
 ## Quick Start
 
-Execute below commands. Then, access to http://localhost:3001.
+Execute below commands. After launching the server, access http://localhost:3001/ to see the "Hello World!" message.
 
 ```shell
 npm ci

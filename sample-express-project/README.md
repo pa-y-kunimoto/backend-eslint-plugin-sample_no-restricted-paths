@@ -12,7 +12,7 @@ Sample Web Server with Express.js
 
 ## Quick Start
 
-Execute below commands. Then, access to http://localhost:3000.
+Execute below commands. After launching the server, access http://localhost:3000/ to see the "Hello World!" message.
 
 ```shell
 npm ci

@@ -1,12 +1,4 @@
-# sample-nestjs-project
-
-<div style="display:flex; gap: 8px;">
-
-[![Lint](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/lint-sample-nestjs-project.yml/badge.svg)](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/lint-sample-nestjs-project.yml)
-
-[![Test](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/test-sample-nestjs-project.yml/badge.svg)](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/test-sample-nestjs-project.yml)
-
-</div>
+# sample-nestjs-project [![Lint](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/lint-sample-nestjs-project.yml/badge.svg)](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/lint-sample-nestjs-project.yml) [![Test](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/test-sample-nestjs-project.yml/badge.svg)](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/test-sample-nestjs-project.yml)
 
 Sample Web Server with NestJS
 

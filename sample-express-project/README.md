@@ -1,12 +1,4 @@
-# sample-express-project
-
-<div style="display:flex; gap: 8px;">
-
-[![Lint](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/lint-sample-express-project.yml/badge.svg)](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/lint-sample-express-project.yml)
-
-[![Test](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/test-sample-express-project.yml)](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/test-sample-express-project.yml)
-
-</div>
+# sample-express-project [![Lint sample-express-project](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/lint-sample-express-project.yml/badge.svg)](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/lint-sample-express-project.yml) [![Test sample-express-project](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/test-sample-express-project.yml/badge.svg)](https://github.com/pa-y-kunimoto/nestjs-eslint-plugin-sample_no-restricted-paths/actions/workflows/test-sample-express-project.yml)
 
 Sample Web Server with Express.js
 

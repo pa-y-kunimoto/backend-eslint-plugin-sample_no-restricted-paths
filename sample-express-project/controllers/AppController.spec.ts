@@ -27,7 +27,7 @@ describe('AppController', () => {
       // Assert
       expect(appServiceMock).toHaveBeenCalledTimes(1);
       expect(appServiceMock).toHaveReturnedWith(expect.any(AppService));
-      expect(firstCalled).toBe(secondCalled);
+      expect(secondCalled).toBe(firstCalled);
     });
   });
 
@@ -35,7 +35,7 @@ describe('AppController', () => {
     it('should call appService.getHello and send the response', async () => {
       // Arrange
       const appServiceMock = {
-        getHello: jest.fn().mockResolvedValue('Dummy Hello World!'),
+        getHello: jest.fn().mockResolvedValue('Hello DUMMY!'),
       };
       const appController = new AppController(appServiceMock);
       const req = {} as express.Request;
@@ -48,7 +48,7 @@ describe('AppController', () => {
 
       // Assert
       expect(appServiceMock.getHello).toHaveBeenCalledTimes(1);
-      expect(res.send).toHaveBeenCalledWith({ message: 'Dummy Hello World!' });
+      expect(res.send).toHaveBeenCalledWith({ message: 'Hello DUMMY!' });
     });
   });
 });

@@ -12,7 +12,7 @@ describe('AppService', () => {
       // Assert
       expect(firstCalled).toBeInstanceOf(AppService);
       expect(secondCalled).toBeInstanceOf(AppService);
-      expect(firstCalled).toBe(secondCalled);
+      expect(secondCalled).toBe(firstCalled);
     });
   });
 

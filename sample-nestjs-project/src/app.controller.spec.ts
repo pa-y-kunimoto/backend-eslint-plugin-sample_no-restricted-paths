@@ -18,7 +18,7 @@ describe('AppController', () => {
 
   describe('getHello', () => {
     it('should return the message from AppService', () => {
-      const mockMessage = 'Dummy Hello World';
+      const mockMessage = 'Hello DUMMY!';
       jest.spyOn(appService, 'getHello').mockReturnValue(mockMessage);
 
       const result = appController.getHello();

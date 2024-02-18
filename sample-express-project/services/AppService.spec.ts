@@ -3,8 +3,6 @@ import { AppService } from './AppService';
 describe('AppService', () => {
   describe('static getSingleton', () => {
     it('should return a singleton instance of AppService', () => {
-      // Arrange
-
       // Act
       const firstCalled = AppService.getSingleton();
       const secondCalled = AppService.getSingleton();

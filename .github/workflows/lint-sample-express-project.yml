@@ -1,10 +1,10 @@
-name: Lint sample-exprss-project
+name: Lint sample-express-project
 
 on:
   push:
     paths:
       - package.json
-      - sample-exprss-project/**/*
+      - sample-express-project/**/*
 
 jobs:
   lint:
@@ -32,4 +32,4 @@ jobs:
 
       - name: Lint
         run: npm run lint
-        working-directory: sample-exprss-project
+        working-directory: sample-express-project

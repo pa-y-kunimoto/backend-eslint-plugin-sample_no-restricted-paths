@@ -1,9 +1,9 @@
-name: Test sample-exprss-project
+name: Test sample-express-project
 
 on:
   workflow_run:
     workflows:
-      - "Lint sample-exprss-project"
+      - "Lint sample-express-project"
     types:
       - completed
 
@@ -29,12 +29,12 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: sample-exprss-project
+        working-directory: sample-express-project
 
       - name: Execute Unit Test
         run: npm run test
-        working-directory: sample-exprss-project
+        working-directory: sample-express-project
 
       - name: Execute E2E Test
         run: npm run test:e2e
-        working-directory: sample-exprss-project
+        working-directory: sample-express-project

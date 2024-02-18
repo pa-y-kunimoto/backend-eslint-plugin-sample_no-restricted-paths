@@ -1,0 +1,12 @@
+{
+  "name": "backend-eslint-plugin-sample_no-restricted-paths",
+  "version": "0.0.1",
+  "description": "sample repository",
+  "private": true,
+  "author": "pa-y-kunimoto",
+  "license": "MIT",
+  "volta": {
+    "node": "20.11.1",
+    "npm": "10.4.0"
+  }
+}

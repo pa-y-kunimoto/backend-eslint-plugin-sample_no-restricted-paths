@@ -1,0 +1,35 @@
+name: Lint sample-nestjs-project
+
+on:
+  push:
+    paths:
+      - package.json
+      - sample-nestjs-project/**/*
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: sample-nestjs-project/package.json
+
+      - name: Cache Dependencies
+        uses: actions/cache@v4
+        with:
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          path: ~/.npm
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: sample-nestjs-project
+
+      - name: Lint
+        run: npm run lint
+        working-directory: sample-nestjs-project

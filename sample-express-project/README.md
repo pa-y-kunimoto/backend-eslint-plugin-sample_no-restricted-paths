@@ -12,6 +12,8 @@ Sample Web Server with Express.js
 
 ## Quick Start
 
+Execute below commands. Then, access to http://localhost:3000.
+
 ```shell
 npm ci
 npm run build

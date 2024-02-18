@@ -14,6 +14,8 @@ Based on Nest CLI
 
 ## Quick Start
 
+Execute below commands. Then, access to http://localhost:3001.
+
 ```shell
 npm ci
 npm run build
